@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(12%,12%,14%);
+}
+
+ul {
+	list-style-type:none;
+    margin: 0; padding: 0px 5px 0px 0px;
+	text-align: right;
+}
+
+li {
+	margin: 0px 0px 8px 0px;
+}
+
+
+p {
+    margin: 0px 0px 0px 10px;	
+}
+
+word {
+    margin: 0px 0px 2px 0px;	
+}
+
+.outer-box {
+	margin: 5px 10px 10px 10px;
+}
+
+td.top {
+	vertical-align: top;
+}
+
+.code-font {
+	font-family: 'Space Mono', monospace;
+}
+
+.comment {
+	color: rgb(45%,65%,31%);
+}
+
+.variable {
+	color: rgb(36%, 85%, 100%);
+}
+
+.keyword {
+	color: rgb(99%,37%,64%);
+}
+
+.braces {
+	color: rgb(100%,100%,100%);
+}
+
+
+#line-number {
+	color: rgb(38%,38%,40%);
+	font-family: 'Roboto', sans-serif;
+}
