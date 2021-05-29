@@ -2,35 +2,17 @@ body {
   background-color: rgb(12%,12%,14%);
 }
 
-ul {
-	list-style-type:none;
-    margin: 0; padding: 0px 5px 0px 0px;
-	text-align: right;
+td {
+	vertical-align: center;
+	height: 8px;
 }
 
-li {
-	margin: 0px 0px 8px 0px;
-}
-
-
-p {
-    margin: 0px 0px 0px 10px;	
-}
-
-word {
-    margin: 0px 0px 2px 0px;	
+.codepacing {
+	padding-left: 10px;
 }
 
 .outer-box {
 	margin: 5px 10px 10px 10px;
-}
-
-td.top {
-	vertical-align: top;
-}
-
-.code-font {
-	font-family: 'Space Mono', monospace;
 }
 
 .comment {
@@ -45,12 +27,28 @@ td.top {
 	color: rgb(99%,37%,64%);
 }
 
-.braces {
+.symbol {
 	color: rgb(100%,100%,100%);
+	font-size: 21px;
 }
 
+.stringss {
+	color: rgb(99%,41%,36%);
+}
 
-#line-number {
+a { color: inherit; } 
+
+
+
+lno {
 	color: rgb(38%,38%,40%);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+code {
+    margin: 0px 0px 200px 0px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 20px;
 }
